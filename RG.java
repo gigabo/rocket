@@ -446,7 +446,7 @@ public class RG extends JComponent implements Runnable, KeyListener{
   public static void main(String[] args) {
     JFrame frame = new JFrame("RG");
     frame.getContentPane().add( new RG() );
-    frame.setSize(800, 800);
+    frame.setSize(1200, 800);
     frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
     frame.setVisible(true);
   }
